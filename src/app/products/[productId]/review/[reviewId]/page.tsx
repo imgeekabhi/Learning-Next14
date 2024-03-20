@@ -11,9 +11,9 @@ const ProductReview = ({
   params: { productId: number; reviewId: number };
 }) => {
   const random = getRandomInt(2);
-  if (random === 1) {
-    throw new Error(`Error Loading review`);
-  }
+  // if (random === 1) {
+  //   throw new Error(`Error Loading review`);
+  // }
   if (params.reviewId > 1000) {
     notFound();
   }
