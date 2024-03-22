@@ -6,6 +6,8 @@ const F4Page = () => {
     <div>
       <div>F4 Page</div>
       <Link href={`/f1/f3`}>F3</Link>
+      <br />
+      <Link href={`/about`}>About</Link>
     </div>
   );
 };
