@@ -7,7 +7,7 @@ export const metadata = {
 };
 const About = () => {
   console.log("About is a server component");
-  return <div>Welocme to the About page</div>;
+  return <div>Welocme to the About page{new Date().toLocaleTimeString()}</div>;
 };
 
 export default About;
